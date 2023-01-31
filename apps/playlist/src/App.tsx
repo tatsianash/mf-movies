@@ -7,10 +7,10 @@ import './App.css';
 function App() {
   return (
     <div>
-      <h1>Movies</h1>
+      <h1>Playlist</h1>
       <AppShell
-        title="Movies app"
-        colorScheme="light"
+        title="Playlist app"
+        colorScheme="dark"
         navLinks={[
           { label: 'Home', path: '/' },
           { label: 'Playlist', path: '/playlist' },
