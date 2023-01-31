@@ -1,8 +1,9 @@
 import { AppShell } from 'ui';
 import React from 'react';
-import { MoviesContent } from 'movies-content';
 import { PlaylistContent } from 'playlist-content';
 import './App.css';
+// @ts-ignore
+import MoviesContent from 'movies/Movies';
 
 function App() {
   return (
