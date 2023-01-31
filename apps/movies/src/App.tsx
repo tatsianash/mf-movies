@@ -1,7 +1,6 @@
 import { AppShell } from 'ui';
 import React from 'react';
-// import { Button } from 'ui';
-
+import MoviesContent from './MoviesContent';
 import './App.css';
 
 function App() {
@@ -18,7 +17,7 @@ function App() {
         routes={[
           {
             path: '/',
-            element: () => <div>Home</div>,
+            element: MoviesContent,
           },
           {
             path: '/playlist',
@@ -26,7 +25,6 @@ function App() {
           },
         ]}
       />
-      {/* <Button /> */}
     </div>
   );
 }
